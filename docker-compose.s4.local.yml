@@ -33,6 +33,7 @@ services:
       FRONTEND_ORIGIN: http://localhost:5174
       REFRESH_COOKIE_SECURE: "false"
       REFRESH_COOKIE_SAME_SITE: Lax
+      PASSWORD_RESET_EXPOSE_TOKEN: "true"
     ports:
       - "8081:8080"
     depends_on:
